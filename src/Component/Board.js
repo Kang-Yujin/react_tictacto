@@ -1,8 +1,5 @@
-import React, { useState } from 'react';
 import '../index.css';
 import Square from './Square'
-
-
 
 export default function Board( props ) {
 
