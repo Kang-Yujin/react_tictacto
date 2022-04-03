@@ -6,10 +6,6 @@ import Square from './Square'
 
 export default function Board( props ) {
 
-    const [squares, setSquares] = useState(Array(9).fill(null));
-    const [xIsNext, setxIsNext] = useState(true);
-
-
     function renderSquare(i) {
         return <Square 
                     value={ props.squares[i] } 

@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 import '../index.css';
 import Board from './Board'
-import Square from './Square';
 
 export default function Game() {
     
